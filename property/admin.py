@@ -14,7 +14,6 @@ class FlatAdmin(admin.ModelAdmin):
     list_display = [
         'address',
         'price',
-        'owner_pure_phone',
         'new_building',
         'construction_year'
     ]
